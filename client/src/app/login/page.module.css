@@ -1,0 +1,69 @@
+.page {
+    padding: 8.5% 48px 8.5% 48px;
+}
+
+/* Main Container */
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-style: solid;
+    padding: 12px;
+}
+
+.loginContainerHeader {
+    font-size: 3.6rem;
+    margin: 24px 0 24px 0;
+}
+
+/* Label / Input */
+
+.loginInputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginInputLabel {
+    font-size: 2.8rem;
+    margin: 12px 0 12px 0;
+}
+
+.loginInput {
+    padding: 12px;
+    text-align: center;
+    font-size: 1.6rem;
+    width: 30%;
+    align-self: center;
+}
+
+/* Buttons */
+
+.loginButtonsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.loginButtonsContainer button {
+    align-self: center;
+    margin: 24px 0 24px 0;
+}
+
+.loginButton {
+    height: 48px;
+    margin: 12px 0 12px 0;
+}
+
+.submitButton {
+    padding: 12px;
+    font-size: 1.8rem;
+    width: 30%;
+
+}
+
+.loginSignupButton {
+    padding: 12px;
+    font-size: 1.8rem;
+    width: 60%;
+}

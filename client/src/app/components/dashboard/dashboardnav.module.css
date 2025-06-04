@@ -1,0 +1,23 @@
+.dashboardNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 24px 0 24px 0;
+    padding: 0 8.5% 12px 8.5%;
+    border-style: none none solid none;
+}
+
+.selectedButton {
+    background-color: #4E6688;
+}
+
+.dashboardNavButton {
+    width: 33%;
+    padding: 12px;
+    font-size: 1.89rem;
+
+}
+
+.dashboardNavButton:hover {
+    background-color: #71C0BB;
+}
